@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir c:/Users/Admin/Desktop/video-editing/src/components/hiring)",
+      "Bash(npm run *)",
+      "Bash(findstr /C:\"hiring\" /C:\"error\" /C:\"problems\")"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\Admin\\Desktop\\video-editing\\src\\components"
+    ]
+  }
+}
