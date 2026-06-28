@@ -1,0 +1,107 @@
+export const AboutAtnaStyles = {
+  glassCard: {
+    backgroundColor: "rgba(10, 25, 47, 0.65)",
+    backdropFilter: "blur(16px)",
+    WebkitBackdropFilter: "blur(16px)",
+    borderRadius: "24px",
+    border: "1px solid rgba(82, 216, 185, 0.2)",
+    boxShadow: "0 20px 40px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1)",
+    padding: "32px",
+    color: "#fff",
+  },
+  glassCardDark: {
+    backgroundColor: "rgba(6, 15, 29, 0.85)",
+    backdropFilter: "blur(24px)",
+    WebkitBackdropFilter: "blur(24px)",
+    borderRadius: "24px",
+    border: "1px solid rgba(255, 255, 255, 0.05)",
+    boxShadow: "0 30px 60px rgba(0, 0, 0, 0.5)",
+    padding: "32px",
+    color: "#fff",
+  },
+  heading1: {
+    fontSize: "80px",
+    fontWeight: 700,
+    letterSpacing: "-0.02em",
+    lineHeight: 1.1,
+    margin: 0,
+    color: "#ffffff",
+  },
+  heading2: {
+    fontSize: "56px",
+    fontWeight: 600,
+    letterSpacing: "-0.02em",
+    lineHeight: 1.2,
+    margin: 0,
+    color: "#ffffff",
+  },
+  subtitle: {
+    fontSize: "32px",
+    fontWeight: 400,
+    color: "rgba(255, 255, 255, 0.7)",
+    letterSpacing: "-0.01em",
+    lineHeight: 1.4,
+    margin: 0,
+  },
+  tealText: {
+    color: "#52D8B9",
+  },
+  aquaText: {
+    color: "#357EC9",
+  },
+  overlay: {
+    position: "absolute" as const,
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: "rgba(7, 19, 31, 0.75)", // Dark navy overlay
+    zIndex: 1,
+  },
+  badge: {
+    display: "inline-flex",
+    alignItems: "center",
+    padding: "8px 16px",
+    borderRadius: "100px",
+    fontSize: "18px",
+    fontWeight: 600,
+  },
+  badgeSafe: {
+    backgroundColor: "rgba(82, 216, 185, 0.15)",
+    color: "#52D8B9",
+    border: "1px solid rgba(82, 216, 185, 0.3)",
+  },
+  badgeRisk: {
+    backgroundColor: "rgba(255, 75, 75, 0.15)",
+    color: "#FF4B4B",
+    border: "1px solid rgba(255, 75, 75, 0.3)",
+  },
+  badgeWarning: {
+    backgroundColor: "rgba(255, 170, 0, 0.15)",
+    color: "#FFAA00",
+    border: "1px solid rgba(255, 170, 0, 0.3)",
+  },
+  badgeNeutral: {
+    backgroundColor: "rgba(255, 255, 255, 0.1)",
+    color: "rgba(255, 255, 255, 0.8)",
+    border: "1px solid rgba(255, 255, 255, 0.2)",
+  },
+  table: {
+    width: "100%",
+    borderCollapse: "collapse" as const,
+  },
+  th: {
+    textAlign: "left" as const,
+    padding: "20px 24px",
+    color: "rgba(255, 255, 255, 0.5)",
+    fontSize: "18px",
+    fontWeight: 500,
+    borderBottom: "1px solid rgba(255, 255, 255, 0.1)",
+  },
+  td: {
+    padding: "24px",
+    color: "#fff",
+    fontSize: "20px",
+    borderBottom: "1px solid rgba(255, 255, 255, 0.05)",
+  }
+};
