@@ -10,18 +10,6 @@ export const LinkedInAdsVideo: React.FC = () => {
   const textSlideDuration = 90; // 3 seconds
   const logoSlideDuration = 120; // 4 seconds
   
-  const textOpacity = interpolate(
-    frame - videoDuration,
-    [0, 20],
-    [0, 1],
-    {
-      extrapolateLeft: 'clamp',
-      extrapolateRight: 'clamp',
-      easing: Easing.inOut(Easing.ease),
-    }
-  );
-
-
   const logoOpacity = interpolate(
     frame - (videoDuration + textSlideDuration),
     [0, 20],
